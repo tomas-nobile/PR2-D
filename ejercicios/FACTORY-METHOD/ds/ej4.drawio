@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T18:48:02.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="dtOYHoWcO94seTwQMJPH" version="21.2.9" type="device">
+<mxfile host="app.diagrams.net" modified="2023-05-19T12:30:52.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="MOOkRJ25cFAjq__XEYu2" version="21.3.2" type="device">
   <diagram name="Página-1" id="9MOvOWp_ZDbA5U8lrWfu">
     <mxGraphModel dx="1290" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-2" value=":Program" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-2" value=":Program" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="80" width="100" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NiCcF0CLb34DytYQ8IQz-2">
-          <mxGeometry x="45" y="60" width="10" height="240" as="geometry" />
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="NiCcF0CLb34DytYQ8IQz-2" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NiCcF0CLb34DytYQ8IQz-2">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="NiCcF0CLb34DytYQ8IQz-2" vertex="1">
           <mxGeometry x="40" y="100" width="20" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-5" value="1- obtenerFactoria()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="NiCcF0CLb34DytYQ8IQz-4" parent="NiCcF0CLb34DytYQ8IQz-2">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-5" value="1- obtenerFactoria()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="NiCcF0CLb34DytYQ8IQz-2" target="NiCcF0CLb34DytYQ8IQz-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="80" as="sourcePoint" />
             <Array as="points">
@@ -22,26 +22,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-6" value=":AvioncitoFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-6" value=":AvioncitoFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="490" width="100" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NiCcF0CLb34DytYQ8IQz-6">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="NiCcF0CLb34DytYQ8IQz-6" vertex="1">
           <mxGeometry x="45" y="60" width="10" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-7" value="2- factoria.CreateInstance()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-7" value="2- factoria.CreateInstance()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0424" y="20" width="80" relative="1" as="geometry">
             <mxPoint x="140" y="170" as="sourcePoint" />
             <mxPoint x="530" y="170" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-8" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;iJuguete juguete = factoria.createInstance()&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-8" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;iJuguete juguete = factoria.createInstance()&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="140" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-9" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;IjugueteFactory factoria = new AvioncitoFactory()&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-9" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;IjugueteFactory factoria = new AvioncitoFactory()&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="90" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-14" value="3- JugueteAvioncito" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-14" value="3- iJuguete" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.0769" relative="1" as="geometry">
             <mxPoint x="530" y="220" as="sourcePoint" />
             <mxPoint x="140" y="220" as="targetPoint" />
@@ -51,19 +51,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-15" value=":JugueteAvioncito" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-15" value=":JugueteAvioncito" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="670" width="100" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NiCcF0CLb34DytYQ8IQz-15">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="NiCcF0CLb34DytYQ8IQz-15" vertex="1">
           <mxGeometry x="45" y="65" width="10" height="415" as="geometry" />
         </mxCell>
-        <mxCell id="NiCcF0CLb34DytYQ8IQz-17" value="4- JugueteAvioncito.fabricar()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="NiCcF0CLb34DytYQ8IQz-2">
+        <mxCell id="NiCcF0CLb34DytYQ8IQz-17" value="4- iJuguete.fabricar()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="NiCcF0CLb34DytYQ8IQz-2" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="370" y="280" as="sourcePoint" />
             <mxPoint x="720" y="270" as="targetPoint" />
             <Array as="points">
               <mxPoint x="480" y="270" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fqT86rPY1i41vrcHHKNz-1" value="5- JugueteAvioncito" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="NiCcF0CLb34DytYQ8IQz-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="350" as="sourcePoint" />
+            <mxPoint x="630" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
