@@ -1,0 +1,243 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>1089</x><y>558</y><w>297</w><h>117</h></coordinates><panel_attributes>Clinica
+--
+_+ Instance():void_
+- Clinica(): void
++definirRolDoctor(dni: String, rolDoctor: IRolDoctor)
+fg=white
+bg=magenta</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1611</x><y>738</y><w>162</w><h>117</h></coordinates><panel_attributes>Persona
+--
+-nombre:String
+-apellido:String
+-dni:String
+-email:String
+-numeroTelefono:String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1611</x><y>1503</y><w>162</w><h>117</h></coordinates><panel_attributes>Duenio
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1413</x><y>1791</y><w>162</w><h>135</h></coordinates><panel_attributes>/Mascota/
+--
+-estado:IEstado
+--
+/+comer():IEstado/
+/+tomar():IEstado/
+/+recibirMedicina():IEstado/
+fg=white
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1692</x><y>1791</y><w>162</w><h>117</h></coordinates><panel_attributes>IEstado
+--
+--
+/+comer():boolean/
+/+tomar():boolean/
+/+recibirMedicina():boolean/
+bg=dark_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1017</x><y>612</y><w>90</w><h>144</h></coordinates><panel_attributes>lt=&lt;-
+-doctores
+m1= *</panel_attributes><additional_attributes>10;140;10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1566</x><y>1836</y><w>144</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+-estado
+m1=1</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>963</x><y>738</y><w>486</w><h>135</h></coordinates><panel_attributes>Doctor
+--
+--
++examinar(Mascota)
++darComer(nombre:String):void
++darTomar(nombre:String):void
++darMedicina(nombre:String):void
++establecerRol(IRolDoctor)
++ponerCollar(ICollarAdapt): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1683</x><y>846</y><w>27</w><h>675</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;730</additional_attributes></element><element><id>Relation</id><coordinates><x>1440</x><y>783</y><w>189</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>190;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1485</x><y>1548</y><w>144</w><h>261</h></coordinates><panel_attributes>lt=&lt;-
+-duenio
+m1=1</panel_attributes><additional_attributes>140;10;10;10;10;270</additional_attributes></element><element><id>UMLClass</id><coordinates><x>333</x><y>1818</y><w>162</w><h>117</h></coordinates><panel_attributes>Perro
+--
+--
++comer():boolean
++tomar():boolean
++recibirMedicina():boolean
+fg=white
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>657</x><y>1845</y><w>162</w><h>117</h></coordinates><panel_attributes>Gato
+--
+--
++comer():boolean
++tomar():boolean
++recibirMedicina():boolean
+fg=white
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>891</x><y>1881</y><w>162</w><h>117</h></coordinates><panel_attributes>Conejo
+--
+--
++comer():boolean
++tomar():boolean
++recibirMedicina():boolean
+fg=white
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>1818</y><w>945</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>1030;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>1854</y><w>621</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>670;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1044</x><y>1890</y><w>387</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>410;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1080</x><y>1791</y><w>351</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+-fichasMedica
+m1=*</panel_attributes><additional_attributes>10;20;370;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>963</x><y>936</y><w>297</w><h>117</h></coordinates><panel_attributes>Contexto
+--
++darAtencion():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>387</x><y>927</y><w>297</w><h>117</h></coordinates><panel_attributes>IRolDoctor
+--
+/+atender():void/
+fg=white
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>198</x><y>1125</y><w>189</w><h>117</h></coordinates><panel_attributes>Cirujano
+--
++atender():void
+fg=white
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>423</x><y>1125</y><w>189</w><h>117</h></coordinates><panel_attributes>Enfermero
+--
++atender():void
+fg=white
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>639</x><y>1125</y><w>189</w><h>117</h></coordinates><panel_attributes>Masajista
+--
++atender():void
+fg=white
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>675</x><y>972</y><w>306</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+-rol
+m1=1</panel_attributes><additional_attributes>10;20;320;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1098</x><y>864</y><w>72</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
+-contexto
+m1=1</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>522</x><y>1035</y><w>225</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>10;10;230;100</additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>1035</y><w>27</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>288</x><y>1035</y><w>225</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>230;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>693</x><y>567</y><w>162</w><h>117</h></coordinates><panel_attributes>Servicio
+--
+-precio:double
+-dniDoctor:int
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>414</x><y>567</y><w>162</w><h>117</h></coordinates><panel_attributes>IComponente
+--
+
+--
+fg=orange
+bg=light_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>558</y><w>162</w><h>117</h></coordinates><panel_attributes>Tratamiento
+--
+-precioInd:double
+--
+fg=orange
+bg=light_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>729</y><w>162</w><h>117</h></coordinates><panel_attributes>Paquete
+--
+-precio:double
+--
+fg=orange
+bg=light_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>153</x><y>675</y><w>369</w><h>153</h></coordinates><panel_attributes>lt=&lt;-
+-componentes
+m1=*
+</panel_attributes><additional_attributes>380;10;380;140;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>576</y><w>144</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+-componentes</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>153</x><y>603</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>153</x><y>639</y><w>279</w><h>153</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>290;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>846</x><y>576</y><w>261</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+-servicios</panel_attributes><additional_attributes>10;20;270;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1899</x><y>1665</y><w>162</w><h>117</h></coordinates><panel_attributes>Feliz
+--
+
+--
++comer():boolean
++tomar():boolean
++recibirMedicina():boolean
+bg=dark_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1899</x><y>1809</y><w>162</w><h>117</h></coordinates><panel_attributes>Enfermo
+--
+
+--
++comer():boolean
++tomar():boolean
++recibirMedicina():boolean
+bg=dark_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1773</x><y>1710</y><w>144</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;10;10;140;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1899</x><y>1953</y><w>162</w><h>117</h></coordinates><panel_attributes>Hambriento
+--
+
+--
++comer():boolean
++tomar():boolean
++recibirMedicina():boolean
+bg=dark_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1845</x><y>1836</y><w>72</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1818</x><y>1899</y><w>99</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;120;90;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1899</x><y>2106</y><w>162</w><h>117</h></coordinates><panel_attributes>Sediento
+--
+
+--
++comer():boolean
++tomar():boolean
++recibirMedicina():boolean
+bg=dark_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1791</x><y>1899</y><w>126</w><h>288</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;300;120;300</additional_attributes></element><element><id>UMLNote</id><coordinates><x>216</x><y>1008</y><w>126</w><h>63</h></coordinates><panel_attributes>Patron Strategy
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>1143</x><y>459</y><w>126</w><h>63</h></coordinates><panel_attributes>Patron Singleton
+fg=white
+bg=magenta</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>180</x><y>819</y><w>126</w><h>63</h></coordinates><panel_attributes>Patron Composite
+bg=orange
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>162</x><y>1386</y><w>126</w><h>63</h></coordinates><panel_attributes>Patron Factory
+fg=white
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>1647</x><y>2025</y><w>126</w><h>63</h></coordinates><panel_attributes>Patron State
+bg=dark_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1827</x><y>999</y><w>207</w><h>135</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+IObserver
+-
++ registarObserver(IObserver) : void
++ eliminarObserver(IObserver) : void
++ notificarObservers() : void
+-
+fg=white
+bg=#3c7a00</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1566</x><y>1125</y><w>297</w><h>711</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>310;10;310;620;100;620;100;770;10;770</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1818</x><y>693</y><w>207</w><h>135</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+ISubscriptor
+-
++ update() : void
+-
+fg=white
+bg=#3c7a00</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1386</x><y>702</y><w>450</w><h>54</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>480;10;10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>1728</x><y>819</y><w>126</w><h>702</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>120;10;120;150;10;150;10;760</additional_attributes></element><element><id>Relation</id><coordinates><x>1431</x><y>864</y><w>99</w><h>945</h></coordinates><panel_attributes>lt=&lt;-
+- subcripciones
+m1= 1..n</panel_attributes><additional_attributes>10;1030;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1548</x><y>1602</y><w>90</w><h>207</h></coordinates><panel_attributes>lt=&lt;-
+- subcripcion
+m1=1</panel_attributes><additional_attributes>10;210;10;10;70;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>1926</x><y>882</y><w>126</w><h>63</h></coordinates><panel_attributes>Patron Observer
+bg=#3c7a00</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1710</x><y>306</y><w>153</w><h>81</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+IProvedorCollarFactory
+-
+-
++ createInstance(): ICollar
+fg=black
+bg=cyan
+transparency=0
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1512</x><y>342</y><w>216</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>220;10;10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1458</x><y>432</y><w>135</w><h>63</h></coordinates><panel_attributes>CollarFactoryAntipulg
+-
+-
++ createInstance(): ICollar
+fg=black
+bg=cyan
+transparency=0
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>2097</x><y>234</y><w>126</w><h>63</h></coordinates><panel_attributes>Patron Adapter
+bg=cyan
+transparency=0
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1674</x><y>360</y><w>54</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>40;10;10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1611</x><y>432</y><w>144</w><h>63</h></coordinates><panel_attributes>CollarFactoryPulgByeBye
+-
+-
++ createInstance(): ICollar
+fg=black
+bg=cyan
+transparency=0
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1773</x><y>432</y><w>153</w><h>63</h></coordinates><panel_attributes>CollarFactoryYaNoMepica
+-
+-
++ createInstance(): ICollar
+fg=black
+bg=cyan
+transparency=0
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1791</x><y>378</y><w>27</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1665</x><y>0</y><w>153</w><h>81</h></coordinates><panel_attributes>Provedor
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1377</x><y>864</y><w>72</w><h>954</h></coordinates><panel_attributes>lt=&lt;-
+-mascota
+m1=*</panel_attributes><additional_attributes>40;1040;10;1000;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1467</x><y>531</y><w>126</w><h>63</h></coordinates><panel_attributes>CollarAdapterAntipulg
+-
+- marca: String
+-
+fg=black
+bg=cyan
+transparency=0
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1611</x><y>531</y><w>144</w><h>63</h></coordinates><panel_attributes>CollarAdapterPulgByeBye
+-
+- marca: String
+-
+fg=black
+bg=cyan
+transparency=0
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1773</x><y>531</y><w>153</w><h>63</h></coordinates><panel_attributes>CollarAdapterYaNoMepica
+-
+- marca: String
+-
+fg=black
+bg=cyan
+transparency=0
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1503</x><y>486</y><w>27</w><h>63</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1674</x><y>486</y><w>27</w><h>63</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1836</x><y>486</y><w>27</w><h>63</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2007</x><y>585</y><w>153</w><h>81</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+ICollar
+-
+-
+fg=black
+bg=cyan
+transparency=0
+layer=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1512</x><y>585</y><w>513</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70;550;70</additional_attributes></element><element><id>Relation</id><coordinates><x>1674</x><y>585</y><w>351</w><h>63</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50;370;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1836</x><y>585</y><w>189</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;30;190;30</additional_attributes></element><element><id>UMLClass</id><coordinates><x>927</x><y>1692</y><w>162</w><h>117</h></coordinates><panel_attributes>FichaMedica
+--
+-nombre:String
+-vacunado:boolean
+-peso:double
+-descripcion:String
+--
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
